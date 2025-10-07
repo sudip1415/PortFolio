@@ -16,11 +16,10 @@ Here is a typical structure for the portfolio project:
 
 ```
 PortFolio/
-├── public/             # Static assets (images, favicon, etc.)
 ├── src/                # Source code (components, pages, styles)
-│   ├── components/     # Reusable UI components (Navbar, Footer, etc.)
+│   ├── component/     # Reusable UI components (Navbar, Footer, etc.)
 │   ├── pages/          # Different pages (Home, About, Projects, Contact)
-│   ├── styles/         # CSS/SCSS or styled-components
+│   ├── routes/         # 
 │   └── App.js          # Main application file
 ├── package.json        # Project metadata and dependencies
 ├── README.md           # Project documentation (this file)
