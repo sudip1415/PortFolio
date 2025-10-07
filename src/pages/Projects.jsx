@@ -15,7 +15,7 @@ const projects = [
     {
         name: 'Portfolio Website',
         technologies: ['React', 'Tailwind CSS', 'Vite'],
-        githubUrl: 'https://github.com/your-username/portfolio-website',
+        githubUrl: 'https://github.com/sudip1415/PortFolio',
     },
     {
         name: 'Task Manager',

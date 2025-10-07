@@ -44,16 +44,16 @@ export default function Footer() {
                         <a href="https://github.com/sudip1415" target="_blank" rel="noopener noreferrer" aria-label="GitHub" className="hover:text-indigo-500">
                             <FaGithub />
                         </a>
-                        <a href="https://linkedin.com/in/sudip1415" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" className="hover:text-indigo-500">
+                        <a href="https://www.linkedin.com/in/sudip-nagane/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" className="hover:text-indigo-500">
                             <FaLinkedin />
                         </a>
-                        <a href="mailto:sudipnagane.email@gmail.com" aria-label="Email" className="hover:text-indigo-500">
+                        <a href="mailto:sudip07770@gmail.com" aria-label="Email" className="hover:text-indigo-500">
                             <FaEnvelope />
                         </a>
-                        <a href="tel:+918888888888" aria-label="Phone" className="hover:text-indigo-500">
+                        <a href="tel:+7350687534" aria-label="Phone" className="hover:text-indigo-500">
                             <FaPhone />
                         </a>
-                        <a href="https://wa.me/918888888888" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp" className="hover:text-green-400">
+                        <a href="https://wa.me/7350687534" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp" className="hover:text-green-400">
                             <FaWhatsapp />
                         </a>
                     </div>

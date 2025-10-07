@@ -1,5 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
+import profileImg from '../assets/profile.webp'; // Adjust relative path if needed
 
 export default function Profile() {
     return (
@@ -7,11 +8,11 @@ export default function Profile() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
-            className="min-h-screen bg-gray-900 text-white px-8 md:px-20 py-16 flex flex-col items-center"
-            style={{ width: '100vw', paddingTop: '5rem' }}
+            className="min-h-screen bg-gray-900 text-white px-8 md:px-20 py-16 flex flex-col items-center w-full"
+            style={{ paddingTop: '5rem' }}
         >
             <motion.img
-                src="/src/assets/profile.webp"
+                src={profileImg}
                 alt="Profile"
                 initial={{ filter: 'blur(12px)', opacity: 0 }}
                 animate={{ filter: 'blur(0px)', opacity: 1 }}

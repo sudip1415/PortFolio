@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { NavLink } from 'react-router-dom';
 import { MenuIcon, XIcon } from '@heroicons/react/outline';
+import profileImg from '../assets/profile.webp'; // Adjust the path as per your folder structure
 
 const navItems = [
 	{ name: 'Home', path: '/' },
@@ -10,10 +11,9 @@ const navItems = [
 	{ name: 'About', path: '/about' },
 ];
 
-// Replace the SVG icon with your profile photo
 const profileLogo = (
 	<img
-		src="/src/assets/profile.webp" // Replace with your profile photo URL
+		src={profileImg}
 		alt="Profile"
 		className="w-8 h-8 rounded-full border-2 border-indigo-500 hover:border-white transition"
 	/>
